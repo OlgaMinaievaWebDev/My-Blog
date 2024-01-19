@@ -58,7 +58,7 @@ a:focus {
 /* main section */
 main {
   width: 100%;
-  height: 70vh;
+  height: 40vh;
   max-width: 415px;
   background-color: aqua;
   background-image: url("./images/hero.avif");
@@ -67,11 +67,19 @@ main {
   background-repeat: no-repeat;
 }
 
+main img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
 .featured-post {
+  max-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 2em 1.25em 1.25em 1.25em;
+  justify-content: flex-end;
+  padding: 8em 1.25em 1.25em 1.25em;
   color: #ffffff;
 }
 
@@ -85,4 +93,16 @@ main {
 }
 .featured-post p {
   font-size: 0.9em;
+}
+
+/* blog posts */
+.blog-posts {
+  display: grid;
+  gap: 3rem;
+  margin: 2.5em 1em 2em;
+}
+
+.card {
+  display: grid;
+  gap: 0.5em;
 }
