@@ -151,3 +151,18 @@ footer h4 {
 footer p {
   color: #d7d7d7;
 }
+
+/* blog style */
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+  align-items: flex-start;
+  padding: 0 1em;
+}
+
+.blog-post p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
