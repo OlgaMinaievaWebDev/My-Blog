@@ -96,6 +96,10 @@ main img {
   color: #ffffff;
 }
 
+.featured-post a:hover {
+ color: orangered;
+}
+
 .featured-post .date {
   font-size: 0.75em;
   text-transform: uppercase;
@@ -118,4 +122,34 @@ main img {
 .card {
   display: grid;
   gap: 0.5em;
+}
+
+.more-posts a {
+ color: #090909;
+ text-align: center;
+ text-decoration: underline;
+ margin-bottom: 1.4em;
+ font-size: 1rem;
+}
+
+/* footer */
+ footer {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  width: 100%;
+  height: 105px;
+  max-width: 415px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #202020;
+  font-size: 0.8rem;
+}
+
+footer h4 {
+ color: #ECECEC;
+}
+
+footer p{
+ color: #D7D7D7;
 }
