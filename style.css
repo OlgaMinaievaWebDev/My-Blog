@@ -117,6 +117,9 @@ main img {
   gap: 1rem;
   margin: 2em 1em 2em;
 }
+.card p{
+  line-height: 1.5;
+}
 
 .card {
   display: grid;
@@ -174,6 +177,10 @@ footer p {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.hidden {
+  display: none;
 }
 
 /* media queries for ipad & desktop */
