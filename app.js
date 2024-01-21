@@ -10,4 +10,5 @@ viewMore.addEventListener("click", function () {
   elements.forEach((element) => {
     element.classList.remove("hidden");
   });
+ viewMore.classList.add('hidden')
 });
