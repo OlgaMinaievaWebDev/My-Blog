@@ -117,8 +117,13 @@ main img {
   gap: 1rem;
   margin: 2em 1em 2em;
 }
+
 .card p{
   line-height: 1.5;
+}
+
+.card h1 {
+  color: rgb(227, 62, 2);
 }
 
 .card {
